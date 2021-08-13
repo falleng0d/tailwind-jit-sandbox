@@ -1,0 +1,22 @@
+{
+  "name": "tailwindcss-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "dev": "live-server src/ --no-css-inject & npx tailwindcss -o src/build/index.css --watch"
+  },
+  "dependencies": {
+    "autoprefixer": "9.8.6",
+    "express": "4.17.1",
+    "live-server": "1.2.1",
+    "path": "0.12.7",
+    "postcss-cli": "7.1.1",
+    "tailwindcss": "latest"
+  },
+  "devDependencies": {
+    "nodemon": "1.18.4"
+  },
+  "keywords": []
+}
